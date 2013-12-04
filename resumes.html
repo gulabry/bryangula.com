@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Bryan Gula's Professional Portfolio">
+    <meta name="author" content="gulabry">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="shortcut icon" href="img/logo.png">
+    <title>Bryan Gula's Portfolio</title>
+    
+    <!-- hot link to Bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+    <!-- our own stylesheet for overrides -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+		<div class="all">
+			<div class="container">
+				<nav class="navbar navbar-default centered" role="navigation">
+				<div class="jumbotron">
+					<h1>Resumes</h1>
+				</div>
+
+				<div id="top" class="container">
+					<ul class="nav nav-tabs centered">
+						<li><a href="index.html"><h4>Home</h4></a></li>
+						<li><a href="aboutme.html"><h4>About Me</h4></a></li>
+						<li class="dropdown">
+					   		<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					    		<h4>Projects <span class="caret"></span></h4>
+					    	</a>
+					    	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+							<li role="presentation" class="dropdown-header">Professional Projects</li>
+							<li><a href="projects.html">CardSwapr</a></li>
+							<li role="presentation" class="divider"></li>
+							<li role="presentation" class="dropdown-header">Coursework Projects</li>
+							<li><a href="http://students.washington.edu/gulabry/info343/lab8/">JQuery Data Navigation</a></li>
+				         	<li><a href="http://students.washington.edu/gulabry/info343/lab7/">Google Maps API</a></li>
+				         	<li><a href="http://students.washington.edu/gulabry/info343/lab4/">Bootstrap Functionality</a></li>
+					    </ul>
+					  </li>
+					  <li><a href="resumes.html"><h4>Resumes</h4></a></li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+
+		<h3 class="res">To download a copy, just right click the picture, <br>then click "Save As" and choose your save destination!</h3>
+		<img id="res" src="img/resume.jpg" class="img-responsive">
+
+
+	</div>
+		<footer>
+			<p>Please <a class="link" href="mailto:bryandgula@gmail.com">Email Me</a> to get in touch!</p>
+			<a href="http://www.linkedin.com/pub/bryan-gula/5a/398/428"><img src="http://s.c.lnkd.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Bryan Gula's profile on LinkedIn"></a>
+
+			<p>&copy; 2013, Bryan Gula.</p>
+		</footer>
+	</div>
+
+	<!-- hot links to Bootstrap JavaScript and jQuery (required by Bootstrap) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+	    <!-- auto-play the carousel -->
+    <script>
+        $('.carousel').carousel();
+    </script>
+</body>
+</html>

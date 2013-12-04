@@ -1,0 +1,186 @@
+/* additional styles for the Bootstrap lab */
+/* note that we do not need to import reset.css here because Bootstrap already resets
+the browser default styles before applying their own */
+
+/* INDEX PAGE*/
+
+	/*Sets background image and adds padding for whole page*/
+.all {
+ 	background-image: url(..img/brushed.png);
+	padding-top: 10px;
+}
+
+	/*Limits padding on top of page*/
+.jumbotron {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 0px;
+}
+
+	/*5 px on the top of the home columns*/
+#home.col-sm-6 { 
+	margin-top: 5px;
+}
+
+.nav-tabs {
+	display: inline-block;
+}
+
+#top.container {
+	margin-bottom: 5px;
+}
+
+	/*cardswapr img on front page*/
+.cs-img {
+	width: 90%;
+}
+
+	/*UW logo on home page size*/
+.uw {
+	width: 73%;
+}
+
+	/*ischool logo on front page*/
+.ischool {
+	width: 69%;
+}
+
+	/*all front page HEADER text*/
+.info-text {
+	text-align: center;
+}
+
+	/*all front page body test*/
+.caption {
+	text-align: left;
+}
+	
+.centered {
+	text-align: center;
+}
+
+.carousel-control {
+	font-size: 40px;
+}
+
+.carousel-control.left{
+	background-image: none;
+}
+
+.carousel-control.right {
+	background-image: none;
+}
+
+	/*The footer for every page*/
+footer{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+/*ABOUT ME PAGE*/
+
+#about.img-responsive{
+	margin: auto;
+}
+
+.about-title{
+	font-size: 50px;
+	margin-top: 10px;
+}
+
+.abouttext {
+	margin-left: 10px;
+}
+
+#belowtext {
+	margin-bottom: 20px;
+}
+
+.lead {
+	margin-left: 30px;
+	margin-top: 15px;
+}
+
+#title.container {
+	text-align: center;
+}
+
+#am.container {
+	display: inline-block;
+}
+
+/*CARDSWAPR PAGE*/
+
+.iphone {
+	position: absolute;
+	width: 70%;
+	display: table-cell; 
+	vertical-align: middle
+}
+
+#i.slide {
+	position: absolute;
+	width: 55%;
+	left: 10.5%;
+	top: 115px;
+	display: table-cell; 
+	vertical-align: middle;
+}
+
+#iphone.col-md-6 {
+	left: 110px;
+}
+
+
+.cardswapr-title {
+	text-align: center;
+}
+
+#cs.img-responsive {
+	display: inline-block;
+	width: 350px;
+	margin: 5px;
+}
+
+
+#swap.img-responsive {
+	display: inline-block;
+	width: 400px;
+}
+
+#cs.container {
+	text-align: center;
+}
+
+.free {
+	text-align: center;
+}
+
+.two {
+	overflow: hidden;
+}
+
+@media(max-width: 1200px) {
+	#iphone {
+		display: none;
+	}
+}
+
+/*RESUME PAGE*/
+
+#res.img-responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.res {
+	text-align: center;
+	margin-left: 35px;
+	margin-right: 35px; 
+}
+
+
+
+
